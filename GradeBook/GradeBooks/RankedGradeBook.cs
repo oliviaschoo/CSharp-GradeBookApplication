@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using GradeBook.Enums;
 
 namespace GradeBook.GradeBooks
 {
-    class RankedGradeBook
+    public class RankedGradeBook : BaseGradeBook
     {
+        Type = GradeBookType.Ranked;
     }
 }
